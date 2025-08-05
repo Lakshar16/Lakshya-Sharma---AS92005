@@ -1,17 +1,28 @@
 h1{
-color: red;
+    text-align: center;
 }
 
-.navbar{
+.navbar ul{
 display: block;
 list-style-type: none;
-  margin: 0;
-  padding: 8px;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2f2626;
+  gap: px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
 
-a: hover,
-a: visited{
-color: white;
+.navbar a:hover{
+    background-color: #c5aa6a;
 }
+.navbar li{
+    float: left;
+}
+
